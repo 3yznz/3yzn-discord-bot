@@ -1,0 +1,24 @@
+# Project: 3YZN Discord Bot
+# Author: 3YZN (@3yzn)
+# Copyright (c) 2026 3YZN
+# License: See LICENSE
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "3yzn-discord-bot"
+version = "1.0.0"
+description = "A modular Discord moderation and automation bot maintained by 3YZN."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "3YZN"}]
+dependencies = ["discord.py>=2.5,<3.0", "aiosqlite>=0.20,<1.0", "python-dotenv>=1.0,<2.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0,<9.0", "pytest-asyncio>=0.23,<2.0"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
