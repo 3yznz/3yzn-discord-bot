@@ -4,7 +4,7 @@
 
 Copyright (c) 2026 3YZN. See [LICENSE](LICENSE) for the project license.
 
-Repository URL placeholder: `https://github.com/3yznz/discord-system-bot`
+Repository URL placeholder: `https://github.com/3yznz/3yzn-discord-bot`
 
 ## Features
 
